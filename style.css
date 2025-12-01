@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #4db5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main_back {
+  display: flex;
+  gap: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.city_section,
+.data_section {
+  background: #ffffff;
+  width: 260px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.heading h1 {
+  font-size: 20px;
+  color: #333;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #4db5ff;
+  width: 60%;
+  margin: 0.5rem auto 0;
+}
+
+.addcity {
+  margin-top: 1rem;
+}
+
+.addcity input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #4db5ff;
+  border-radius: 8px;
+  outline: none;
+}
+
+.addcity button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4db5ff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addcity button:hover {
+  background: #369be6;
+}
+
+.weather_icon {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.weather_icon img {
+  width: 80px;
+}
+
+.readings {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#temprature {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}

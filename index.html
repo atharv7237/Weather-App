@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main_back">
+      <div class="city_section">
+        <div class="heading">
+          <h1>Weather App</h1>
+          <hr />
+        </div>
+        <div class="addcity">
+          <input type="text" placeholder="Enter City Name" id="cityName" />
+        </div>
+        <div class="addcity">
+          <button type="button" onclick="getTemp()">Add City</button>
+        </div>
+      </div>
+      <div class="data_section">
+        <div class="heading">
+          <h1>Weather App</h1>
+          <hr />
+        </div>
+        <div class="weather_icon">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1163/1163666.png"
+            alt="Weather Icon"
+          />
+        </div>
+        <div class="readings">
+          <div id="temprature">13 C</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
